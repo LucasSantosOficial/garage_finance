@@ -1,6 +1,7 @@
 🚗 Garage Finance
 
-<img width="1664" height="867" alt="image" src="https://github.com/user-attachments/assets/dcfe65bb-9fd6-44c0-9af4-e23868443629" />
+<img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/b74a4d9a-6625-463c-be67-2826ceb3c7a4" />
+
 
 Controle Financeiro de Mecânica para GTA RP
 
