@@ -3,7 +3,7 @@ import styles from "./BackgroundMusic.module.css";
 
 const PLAYLIST = [
   {
-    name: "Midnight Club 3 DUB Edition – Game Theme #2",
+    name: "Midnight Club 3 DUB Edition",
     src: "/audio/ambient.mp3",
   },
   {
