@@ -1,0 +1,48 @@
+.player {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #ff003c, #7b2cff);
+  border-radius: 1.5rem;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 0 20px rgba(255, 0, 60, 0.6);
+  color: white;
+  z-index: 9999;
+  min-width: 30px;
+}
+
+.trackName {
+  font-family: "Fredoka", sans-serif;
+  font-size: 0.85rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.musicControls {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.musicBtn {
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.musicBtn:hover {
+  transform: scale(1.15);
+}
+
+.volume {
+  width: 100%;
+  accent-color: #00b3ff;
+}

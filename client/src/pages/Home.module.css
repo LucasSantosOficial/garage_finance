@@ -2,18 +2,13 @@
 /* Design: Graffiti Colorido Playful */
 
 .container {
-  position: relative;
-  min-height: 100%;
-  background-color: #f5f5f0;
-
+  min-height: 100vh;
   background-image: url('/images/graffiti-cars-hero.png');
-  background-repeat: no-repeat;        /* 🔥 impede repetição */
-  background-size: cover;              /* cobre toda a tela */
-  background-position: center;         /* centraliza */
-  background-attachment: fixed;        /* efeito parallax */
-
-  overflow-x: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 /* =========================
    HEADER
@@ -24,6 +19,7 @@
   padding: 2rem 1.5rem;
   background: linear-gradient(90deg, #2563eb, #6366f1);
 }
+
 
 .headerContent {
   max-width: 1200px;

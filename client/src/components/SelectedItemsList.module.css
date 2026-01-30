@@ -10,6 +10,11 @@
   border: 3px solid #ffff00;
   border-radius: 1.5rem;
   box-shadow: 0 4px 12px rgba(255, 0, 0, 0.08);
+  flex-direction: column;
+  gap: 1.85rem;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+ 
+ 
 }
 
 .title {
@@ -140,14 +145,14 @@
   justify-content: center;
   padding: 2rem;
   text-align: center;
-  background-color: #f9f9f9;
-  border: 2px dashed #e0e0d8;
+  background-color: #ffea00a1;
+  border: 2px dashed #000000;
   border-radius: 1rem;
 }
 
 .emptyText {
   font-size: 0.95rem;
-  color: #999;
+  color: #000000;
   margin: 0;
 }
 
