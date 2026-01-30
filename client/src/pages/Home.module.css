@@ -3,13 +3,101 @@
 
 .container {
   position: relative;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: #f5f5f0;
-  background-image: url('/images/graffiti-pattern-bg.png');
-  background-size: 400px 400px;
-  background-attachment: fixed;
+
+  background-image: url('/images/graffiti-cars-hero.png');
+  background-repeat: no-repeat;        /* 🔥 impede repetição */
+  background-size: cover;              /* cobre toda a tela */
+  background-position: center;         /* centraliza */
+  background-attachment: fixed;        /* efeito parallax */
+
   overflow-x: hidden;
 }
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  width: 100%;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(90deg, #2563eb, #6366f1);
+}
+
+.headerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================
+   BRAND (LOGO + TEXTO)
+========================= */
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+/* =========================
+   TEXTOS
+========================= */
+
+.texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 0.25rem;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (max-width: 768px) {
+  .brand {
+    gap: 0.75rem;
+  }
+
+  .logo {
+    width: 48px;
+    height: 48px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+  }
+}
+
+
 
 .backgroundPattern {
   position: fixed;
@@ -29,7 +117,7 @@
 .header {
   position: relative;
   z-index: 10;
-  background: linear-gradient(135deg, #0066ff 0%, #9d4edd 100%);
+  background: linear-gradient(135deg, #ff0000 0%, #ff00006e 100%);
   color: white;
   padding: 2rem 0;
   box-shadow: 0 8px 24px rgba(0, 102, 255, 0.25);

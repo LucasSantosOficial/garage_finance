@@ -24,13 +24,22 @@ export default function Home() {
     <div className={styles.container}>
       {/* Header */}
       <header className={styles.header}>
-        <div className={styles.headerContent}>
-          <div className={styles.logo}>
-            <h1 className={styles.title}>🏎️ Garage Finance</h1>
-            <p className={styles.subtitle}>Controle Financeiro da Mecânica</p>
-          </div>
-        </div>
-      </header>
+  <div className={styles.headerContent}>
+    <div className={styles.brand}>
+      <img
+        src="/images/logo-libert-city.png"
+        alt="Libert City"
+        className={styles.logo}
+      />
+
+      <div className={styles.texts}>
+        <h1 className={styles.title}>Mecânica Libert City</h1>
+        <p className={styles.subtitle}>Controle Financeiro da Mecânica</p>
+      </div>
+    </div>
+  </div>
+</header>
+
 
       {/* Main Content */}
       <main className={styles.main}>
