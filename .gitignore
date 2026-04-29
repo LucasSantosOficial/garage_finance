@@ -1,6 +1,10 @@
 # Dependencies
 **/node_modules
 .pnpm-store/
+package-lock.json
+
+# Claude Code local settings
+.claude/settings.local.json
 
 # Build outputs
 dist/
